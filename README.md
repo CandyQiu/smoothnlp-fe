@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-##项目作用 Use for
+## 项目作用 Use for
 
 [smoothnlp网站](http://www.smoothnlp.com/)前端，对句子进行 词法分析.
 The front-end code for smoothnlp web page. click [http://www.smoothnlp.com/](http://www.smoothnlp.com/) to try it.
@@ -12,15 +12,15 @@ The front-end code for smoothnlp web page. click [http://www.smoothnlp.com/](htt
 Can show it correct on mobile.
 
 
-##实现原理 Way to make it
+## 实现原理 Way to make it
 
 使用canvas绘图实现，句子如果过长会展示滚动条
 Use canvas to wirte the sentence. If the sentence is too long scroll bar will show up.
 
-##截图 Screenshot
+## 截图 Screenshot
 
-![PC效果](https://img.alicdn.com/tfs/TB11B9UaoGF3KVjSZFvXXb_nXXa-1932-1310.jpg 'PC效果 For PC')
-![手机效果](https://img.alicdn.com/tfs/TB1Aq1Wal1D3KVjSZFyXXbuFpXa-814-1264.jpg '手机效果 For mobile')
+![PC效果](https://img.alicdn.com/tfs/TB11B9UaoGF3KVjSZFvXXb_nXXa-1932-1310.jpg "PC效果 For PC")
+![手机效果](https://img.alicdn.com/tfs/TB1Aq1Wal1D3KVjSZFyXXbuFpXa-814-1264.jpg "手机效果 For mobile")
 
 
 ## 可执行脚本 Available Scripts
