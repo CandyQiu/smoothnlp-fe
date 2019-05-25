@@ -18,8 +18,9 @@ Can show it correct on mobile.
 Use canvas to wirte the sentence. If the sentence is too long scroll bar will show up.
 
 ## 截图 Screenshot
-
+### PC效果 For PC
 ![PC效果](https://img.alicdn.com/tfs/TB11B9UaoGF3KVjSZFvXXb_nXXa-1932-1310.jpg "PC效果 For PC")
+### 手机效果 For mobile
 ![手机效果](https://img.alicdn.com/tfs/TB1Aq1Wal1D3KVjSZFyXXbuFpXa-814-1264.jpg "手机效果 For mobile")
 
 
