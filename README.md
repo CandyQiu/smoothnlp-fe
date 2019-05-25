@@ -1,10 +1,33 @@
+## 脚手架搭建使用 Scaffold：Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+##项目作用 Use for
+
+[smoothnlp网站](http://www.smoothnlp.com/)前端，对句子进行 词法分析.
+The front-end code for smoothnlp web page. click [http://www.smoothnlp.com/](http://www.smoothnlp.com/) to try it.
+
+进行简单的移动端兼容
+Can show it correct on mobile.
+
+
+##实现原理 Way to make it
+
+使用canvas绘图实现，句子如果过长会展示滚动条
+Use canvas to wirte the sentence. If the sentence is too long scroll bar will show up.
+
+##截图 Screenshot
+
+![PC效果](https://img.alicdn.com/tfs/TB11B9UaoGF3KVjSZFvXXb_nXXa-1932-1310.jpg 'PC效果 For PC')
+![手机效果](https://img.alicdn.com/tfs/TB1Aq1Wal1D3KVjSZFyXXbuFpXa-814-1264.jpg '手机效果 For mobile')
+
+
+## 可执行脚本 Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### 本地启动 `npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -17,7 +40,7 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### 本地打包`npm run build`
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -37,32 +60,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
