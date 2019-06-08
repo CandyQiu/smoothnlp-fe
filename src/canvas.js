@@ -15,9 +15,9 @@ class Canvas extends Component {
     this.init(nextProps.data);
   }
   init(data) {
-    let tokens = data.tokens;
-    let entities = data.entities;
-
+    let tokens = data.tokens || [];
+    let entities = data.entities || [];
+    // console.log(tokens);
     let c = document.getElementById("myCanvas");
     let ctx = c.getContext("2d");
     // 设置画布宽高
@@ -62,23 +62,15 @@ class Canvas extends Component {
           ctx.font = "12px 微软雅黑";
           ctx.fillText(entities[j].nerTag, len, 70);
           let nerTagLen = entities[j].nerTag.length * 9 + 5;
-          console.log(thisLen);
-
-          console.log(nerTagLen);
-
+          // console.log(thisLen);
+          // console.log(nerTagLen);
           thisLen = nerTagLen > thisLen ? nerTagLen : thisLen;
-
-          console.log(thisLen);
-
+          // console.log(thisLen);
         }
       }
-
-      console.log("thisLen: ", thisLen);
-
-
+      // console.log("thisLen: ", thisLen);
       len = len + thisLen;
-      console.log("len: ", len);
-
+      // console.log("len: ", len);
       // console.log(tokens[i].token.length);
     }
 
